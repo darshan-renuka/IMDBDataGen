@@ -12,6 +12,8 @@ df8 = pd.read_csv('generated_data-8.csv')
 df8 = pd.read_csv('generated_data-8.csv')
 df9 = pd.read_csv('generated_data-8.csv')
 
+a = numpy.rand()
+
 df = pd.concat([df1,df2,df3,df4,df5,df6,df7,df8])
 print(df.shape)
 
